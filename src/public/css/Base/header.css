@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "FortuneCoin";
+    src: url("/public/css/Base/FortuneCoin.otf") format("opentype"), url("/public/css/Base/FortuneCoin.ttf") format("truetype");
+    font-weight: normal;
+    font-style: none;
+}
+
+.header__container{
+    width: 100%;
+    padding: 10px;
+    background-color: #78d778;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.header__container__navbar{
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__container__navbar__link{
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.header__container__navbar__link:hover{
+    color: #000000;
+    transition: 0.5s;
+}
